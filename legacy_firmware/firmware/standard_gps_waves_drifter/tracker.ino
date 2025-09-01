@@ -71,6 +71,8 @@ void setup(){
     sleep_for_seconds(5);
     iridium_manager.attempt_transmit_wave_spectra();
     sleep_for_seconds(5);
+    iridium_manager.attempt_transmit_fft2hz_coeffs_100bins();
+    sleep_for_seconds(5);
   }
 
   // some debugging stuff END
